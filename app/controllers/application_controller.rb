@@ -23,7 +23,6 @@ class ApplicationController < Sinatra::Base
     else
       erb :failure
     end
-
   end
 
   get '/account' do
@@ -37,7 +36,7 @@ class ApplicationController < Sinatra::Base
   end
 
   post "/login" do
-    ##your code here
+    
   end
 
   get "/success" do
